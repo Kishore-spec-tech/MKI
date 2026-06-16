@@ -45,7 +45,7 @@ Most libraries are pre-installed in Google Colab. The only one not included by d
  
 ```
 pip install imbalanced-learn
- 
+```
 ## Project Structure
  
 | File | Description |
