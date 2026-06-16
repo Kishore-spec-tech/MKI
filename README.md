@@ -42,3 +42,31 @@ Most libraries are pre-installed in Google Colab. If running locally, install:
 Credit Card Fraud Detection | Kaggle
 Anonymized credit card transactions labeled as fraudulent or genuine
  
+## Project Structure
+ 
+| File | Description |
+
+|---|---|
+
+| `CreditCardProject.ipynb` | Full notebook: data loading, preprocessing, EDA, model training, evaluation |
+
+| `README.md` | This file |
+ 
+## Methods Summary
+ 
+| Model | Type | Best AUC-PR |
+
+|---|---|---|
+
+| Random Forest (SMOTE) | Supervised | 0.8675 |
+
+| Isolation Forest | Unsupervised | 0.1916 |
+
+| One-Class SVM | Unsupervised | 0.1625 |
+ 
+## Notes
+ 
+- GridSearchCV was attempted for hyperparameter tuning but was computationally infeasible on Google Colab's free tier. A manual comparison of four configurations was used instead.
+
+- One-Class SVM was trained on a 10,000 row sample of the training set due to the algorithm's quadratic time complexity.
+ 
