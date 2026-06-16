@@ -41,6 +41,10 @@ The dataset is not included in this repository due to its size. Download it from
 Most libraries are pre-installed in Google Colab. If running locally, install:
 Credit Card Fraud Detection | Kaggle
 Anonymized credit card transactions labeled as fraudulent or genuine
+Most libraries are pre-installed in Google Colab. The only one not included by default is `imbalanced-learn`. Run this in your first notebook cell if needed:
+ 
+```
+pip install imbalanced-learn
  
 ## Project Structure
  
